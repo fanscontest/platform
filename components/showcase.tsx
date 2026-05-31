@@ -60,6 +60,17 @@ export default function Showcase() {
                   </div>
                 </a>
               </div>
+
+              {/* Website link */}
+              <a
+                href="https://fanscontest.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 mt-4 text-sm text-slate-400 hover:text-purple-300 transition group"
+              >
+                <span>fanscontest.com</span>
+                <span className="transition-transform duration-150 ease-in-out group-hover:translate-x-0.5" aria-hidden="true">→</span>
+              </a>
             </div>
 
             {/* Right: overlapping phone screenshots */}
